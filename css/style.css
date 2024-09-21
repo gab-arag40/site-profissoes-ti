@@ -1,0 +1,95 @@
+body{
+    font-family:monospace;
+    margin: 5;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
+
+
+h1{
+    font-family: monospace;
+    text-align: center;
+    color: rgb(32, 194, 14);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* deixar em uma bolha */
+    justify-content: space-around;
+    margin-top: 20px;
+    color: rgb(32, 194, 14);
+}
+
+.profissoes {
+    margin: 30px; 
+    background-color: rgba(78, 90, 93, 0.267);
+    border: 5px solid rgb(32, 194, 14);
+    padding: 10px;      /* espço interno */
+    text-align: center; /* justificar texto */
+    border-radius: 10px;
+    box-shadow:  0px 0px 20px rgba(25, 28, 34, 0.555);
+    width: 20%;
+}
+
+.progweb{
+    background-color: rgba(78, 90, 93, 0.267);
+    color: rgb(32, 194, 14);
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    line-height: 20px;
+    border: 2px solid rgb(32, 194, 14);
+}
+
+.analista{
+    background-color: rgba(78, 90, 93, 0.267);
+    color: rgb(32, 194, 14);
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px; 
+    line-height: 20px;
+    border: 2px solid rgb(32, 194, 14);
+}
+
+.nocode{
+    background-color: rgba(78, 90, 93, 0.267);
+    color: rgb(32, 194, 14);
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    line-height: 20px;
+    border: 2px solid rgb(32, 194, 14);
+}
+
+a{
+    color: blueviolet;
+}
+
+img{
+    height: 200px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.intro{
+    background-color: rgba(78, 90, 93, 0.267);
+    color: rgb(32, 194, 14);
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    line-height: 25px;
+    border: 2px solid rgb(32, 194, 14);
+}
